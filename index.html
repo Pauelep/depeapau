@@ -8,33 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Hola, soy Paula y me gusta</h1>
-        <div class="rectangle">
-          <p id="changingText"></p>
-        </div>
-      </div>
-    <!-- <a href="Ej1P5/index.html">EJ1P5</a> -->
-
-    <script>
-
-var changingText = document.getElementById("changingText");
-    var texts = ["Diseñadora", "Fotografa", "Guapa"]; // Puedes añadir más textos aquí
-
-    function changeText() {
-      var currentIndex = 0;
-
-      setInterval(function() {
-        changingText.textContent = texts[currentIndex];
-
-        currentIndex++;
-        if (currentIndex >= texts.length) {
-          currentIndex = 0;
-        }
-      }, 4000); // Cambia el texto cada 2 segundos (2000ms)
-    }
-
-    changeText();
-    </script>
+  
 </body>
 </html>
