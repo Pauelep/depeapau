@@ -5,9 +5,16 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
   }
+  .container  {
+    height: 500px;
+    width: 500px;
 
-  .container {
-    text-align: center;
+  }
+
+  .container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
   }
 
   .rectangle {
@@ -38,3 +45,4 @@ body {
       opacity: 0;
     }
   }
+

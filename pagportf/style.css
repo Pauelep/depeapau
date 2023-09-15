@@ -4887,7 +4887,6 @@ html {
     justify-content: center;
     align-items: center;
     padding: 0 0 0 8px;
-    line-height: .6em;
     display: flex;
   }
   
@@ -4975,17 +4974,13 @@ html {
   }
   
   .property-image {
-    background-image: url("https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64ef841d2e3fea836954ed31_4.png");
-    background-position: 0 0;
-    background-size: cover;
+
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding: 20px 15px;
   }
   
-  .property-image.custom-bg {
-    background-image: url("https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64ef841d2e3fea836954ed35_3.png");
-  }
+ 
   
   .property-image.custom-bg._2 {
     height: auto;
@@ -5021,7 +5016,6 @@ html {
   .card-image-left-meta.tagcard {
     background-color: #ff9d00;
     border-radius: 70px;
-    flex-wrap: wrap;
     padding: 10px 16px;
     display: flex;
   }
@@ -6478,4 +6472,112 @@ html {
     #w-node-a2517314-1bdb-1cb4-6d81-d9568cc726aa-6c2e93cc, #w-node-a2517314-1bdb-1cb4-6d81-d9568cc726c2-6c2e93cc, #w-node-a2517314-1bdb-1cb4-6d81-d9568cc726e6-6c2e93cc, #w-node-a2517314-1bdb-1cb4-6d81-d9568cc726e7-6c2e93cc {
       grid-row: span 2 / span 2;
     }
+  }
+
+  /* hola */
+  
+
+
+/*=============================
+=            Card          =
+===============================*/
+
+.card-containernft {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: Auto;
+  width: 100%;
+  
+}
+
+.content-containernft {
+  position: static;
+  background: rgb(29, 238, 238);
+  height: Auto;
+  width: 100%;
+ 
+  border-radius: 35px;
+}
+
+
+
+.content-containernft .imagefoto {
+  position: relative;
+}
+
+ .datecua {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+.content-containernft .imagencontenido  img {
+  width: 100%;
+height: 20rem;
+  object-fit: cover;
+  border-radius:35px ;
+
+}
+
+.content-containernft .imagefoto .datecua {
+  bottom: 0;
+  padding: 10px;
+}
+
+.content-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin-base,
+.time-left {
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.coin-base p,
+.time-left p {
+  color: var(--var-white);
+}
+
+.coin-base i,
+.time-left i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  color: var(--var-grey);
+}
+
+.card-tags p {
+  color: var(--var-grey);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 0.8rem;
+}
+
+.card-tags a {
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4rem 0.7rem;
+  background: rgb(42, 27, 147);
+  border-radius: 2rem;
+  box-shadow: inset 0 0 0.3rem #03a9f4;
+}
+
+
+.main-content{
+    padding: 1.2rem;
+}
+
+
+.imagencontenido{
+  width: auto;
+ min-height: 22 rem;
   }
