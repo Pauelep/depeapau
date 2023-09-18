@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .container  {
+    height: 500px;
+    width: 500px;
+
+  }
+
+  .container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+  }
+
+  .rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    animation: changeText 4s infinite;
+  }
+
+  @keyframes changeText {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    20% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    80% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+
