@@ -7992,13 +7992,13 @@
   
     .linkipres {
       padding-right: 7px;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
   
     .linkipres.presverd {
       margin-left: 2px;
       margin-right: 2px;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
   
     .linkipres.presaz {
@@ -8011,9 +8011,9 @@
       text-align: left;
       word-break: normal;
       margin-top: 10px;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       font-weight: 500;
-      line-height: 2.3rem;
+      line-height: 2.7rem;
       display: block;
     }
   
