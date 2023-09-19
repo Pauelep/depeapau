@@ -2419,7 +2419,7 @@ textarea.w-select {
 }
 
 .nav-link-2 {
-    color: #1a1b1f;
+    color: #0c34d0;
     letter-spacing: .25px;
     margin-left: 5px;
     margin-right: 5px;
@@ -2427,6 +2427,7 @@ textarea.w-select {
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
+    
 }
 
 .nav-link-2:hover {
