@@ -914,6 +914,7 @@
     .w-col-tiny-12 {
       width: 100%;
     }
+    
   }
   
   .w-widget {
@@ -7799,6 +7800,7 @@
     }
 
 
+
   }
   
   @media screen and (max-width: 479px) {
@@ -8664,11 +8666,14 @@
       font-size: 13px;
       line-height: 13px;
     }
-
-   
+    .content-containercarta .imagefoto .datecua {
+      bottom: 0;
+      padding: 15px !important;    }
+ 
     
   }
-  
+
+
   #w-node-a2517314-1bdb-1cb4-6d81-d9568cc726a8-6c2e93cc {
     grid-template-rows: auto 25vw auto 25vw auto;
     grid-template-columns: 1fr 1fr;
@@ -8770,7 +8775,7 @@
 
 .content-containercarta .imagefoto .datecua {
   bottom: 0;
-  padding: 10px; 
+  padding: 25px; 
 }
 
 .content-info {
