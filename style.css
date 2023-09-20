@@ -8834,7 +8834,7 @@
   
   }
   .card-containercarta a:link {
-    text-decoration: none;
+    text-decoration: none !important;
   
   }
 /*   
