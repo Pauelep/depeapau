@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
-<html data-wf-domain="paula-lopez.webflow.io"
-data-wf-page="63d66ef7523677696c2e93cc"
-data-wf-site="63d66ef75236771f572e93cb">
+<html
+  data-wf-domain="paula-lopez.webflow.io"
+  data-wf-page="63d66ef7523677696c2e93cc"
+  data-wf-site="63d66ef75236771f572e93cb"
+>
   <head>
     <meta charset="utf-8" />
     <title>Trabajos-Paula Lopez</title>
@@ -35,12 +37,7 @@ data-wf-site="63d66ef75236771f572e93cb">
             (n.className += t + "touch");
       })(window, document);
     </script>
-    <link
-      href=""
-      rel="shortcut icon"
-      type="image/x-icon"
-    />
-  
+    <link href="" rel="shortcut icon" type="image/x-icon" />
   </head>
   <body class="body">
     <div
@@ -181,9 +178,14 @@ data-wf-site="63d66ef75236771f572e93cb">
         </div>
       </div>
     </div>
+
     <h1 class="heading-5">Trabajos</h1>
-    <ul role="list" class="portfolio-flters">
-      <li class="filtro-trab">
+
+    <ul role="list" class="portfolio-flters" id="portfolio-flters">
+      <li
+        data-filter=".filter-interactivo, .filter-branding,.filter-packaging, .filter-editorial, .filter-fotografia, .filter-senaletica"
+        class="filtro-trab filter-active"
+      >
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -193,7 +195,8 @@ data-wf-site="63d66ef75236771f572e93cb">
           <div class="probatgtext">Todo</div>
         </div>
       </li>
-      <li class="filtro-trab">
+
+      <li data-filter=".filter-interactivo" class="filtro-trab">
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -203,7 +206,8 @@ data-wf-site="63d66ef75236771f572e93cb">
           <div class="probatgtext">Diseño interactivo</div>
         </div>
       </li>
-      <li class="filtro-trab">
+
+      <li data-filter=".filter-branding" class="filtro-trab">
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -213,7 +217,8 @@ data-wf-site="63d66ef75236771f572e93cb">
           <div class="probatgtext">Branding</div>
         </div>
       </li>
-      <li class="filtro-trab">
+
+      <li data-filter=".filter-packaging" class="filtro-trab">
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -223,7 +228,8 @@ data-wf-site="63d66ef75236771f572e93cb">
           <div class="probatgtext">Packaging</div>
         </div>
       </li>
-      <li class="filtro-trab">
+
+      <li data-filter=".filter-editorial" class="filtro-trab">
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -233,7 +239,8 @@ data-wf-site="63d66ef75236771f572e93cb">
           <div class="probatgtext">Editorial</div>
         </div>
       </li>
-      <li class="filtro-trab">
+
+      <li data-filter=".filter-fotografia" class="filtro-trab">
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -243,7 +250,8 @@ data-wf-site="63d66ef75236771f572e93cb">
           <div class="probatgtext">Fotografía</div>
         </div>
       </li>
-      <li class="filtro-trab">
+
+      <li data-filter=".filter-senaletica" class="filtro-trab">
         <div class="probatg">
           <img
             src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
@@ -254,460 +262,607 @@ data-wf-site="63d66ef75236771f572e93cb">
         </div>
       </li>
     </ul>
-    <div
-      id="w-node-a6760152-5d97-038c-b665-a28e892b6d6e-526b5a8f"
-      class="w-layout-layout quick-stack-5 wf-layout-layout"
-    >
+
+    <div id="portfolio-wrapper">
       <div
-        id="w-node-a6760152-5d97-038c-b665-a28e892b6d6f-526b5a8f"
-        class="w-layout-cell"
+        id="w-node-a6760152-5d97-038c-b665-a28e892b6d6e-526b5a8f"
+        class="w-layout-layout quick-stack-5 wf-layout-layout"
       >
-        <div class="property-card">
-          <div class="property-image custom-bg _2">
-            <div class="property-image-inner">
-              <div class="div-block-129"></div>
-              <div class="p-image-inner-info-top">
-                <div class="card-image-left-meta tagcard">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Editorial
+        <div
+          id="w-node-a6760152-5d97-038c-b665-a28e892b6d6f-526b5a8f"
+          class="w-layout-cell portfolio-item filter-packaging"
+        >
+          <div class="card-containercarta">
+            <a
+              href="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+            >
+              <div class="content-containercarta" style="background: #eff239ff">
+                <!--Color fondo carta -->
+
+                <div class="imagefoto">
+                  <div class="imagencontenido">
+                    <img src="img/GeneralAmbas_TunTun.jpg" alt="nft" />
                   </div>
-                </div>
-                <div class="card-image-left-meta tagcard tagaz">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Señalética
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="property-details-4 vinoinicio">
-            <div class="property-title-4">
-              4 Bedroom Double Storey Townhouse
-            </div>
-            <div class="tarjdeescrip">
-              <div class="property-size property-company">
-                <div class="textotarjetas">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  setempor incididunt ut labore et dolore magna aliqua. Maecenas
-                  pharetra convallis posuere morbi leo . Donec ultrices
-                  tincidunt arcu etra pharetra pharetra pharetra pharetra
-                  pharetra pharetra pharetra pharetra pharetra pharetra pharetra
-                  pharetra
-                </div>
-              </div>
-            </div>
-            <div class="property-meta-datat-3 comapny-and-date last-child">
-              <div class="bathroom">
-                <img
+
+                  <div class="p-image-inner-info-top datecua">
+                    <object>
+                      <a href="trabajos.html#packaging">
+                        <div class="card-image-left-meta tagcard">
+                          <!-- <img
                   src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
                   alt=""
                   class="calendar"
-                />
+                /> -->
+
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            📦 Packaging
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                    <object>
+                      <a href="trabajos.html#branding">
+                        <div class="card-image-left-meta tagcard">
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            ➰ Branding
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                  </div>
+                </div>
+                <div class="property-details-4 vinoinicio">
+                  <div
+                    class="property-title-4"
+                    style="color: var(--negro-color)"
+                  >
+                    Tun Tun Alicante
+                  </div>
+                  <div class="tarjdeescrip">
+                    <div class="property-size property-company">
+                      <div
+                        class="textotarjetas"
+                        style="color: var(--negro-color)"
+                      >
+                        Tun Tun es un vino alicantino que, con su estilo casual
+                        y desenfadado, busca expresar la libertad de cada
+                        persona. Cada botella es un tributo a la individualidad,
+                        destinada a ser disfrutada sin restricciones,
+                        enriqueciendo cada encuentro y celebrando la diversidad
+                        de momentos y experiencias compartidas
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="property-meta-datat-3 comapny-and-date last-child"
+                  >
+                    <div class="bathroom">
+                      <img
+                        src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                        alt=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
-      </div>
-      <div
-        id="w-node-a6760152-5d97-038c-b665-a28e892b6d70-526b5a8f"
-        class="w-layout-cell"
-      >
-        <div class="property-card">
-          <div class="property-image custom-bg _2">
-            <div class="property-image-inner">
-              <div class="div-block-129"></div>
-              <div class="p-image-inner-info-top">
-                <div class="card-image-left-meta tagcard">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Editorial
+        <div
+          id="w-node-a6760152-5d97-038c-b665-a28e892b6d70-526b5a8f"
+          class="w-layout-cell portfolio-item filter-branding"
+        >
+          <div class="card-containercarta">
+            <a
+              href="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+            >
+              <div
+                class="content-containercarta"
+                style="background: rgb(57, 242, 220)"
+              >
+                <!--Color fondo carta -->
+
+                <div class="imagefoto">
+                  <div class="imagencontenido">
+                    <img src="img/GeneralAmbas_TunTun.jpg" alt="nft" />
                   </div>
-                </div>
-                <div class="card-image-left-meta tagcard tagaz">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Señalética
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="property-details-4 vinoinicio">
-            <div class="property-title-4">
-              4 Bedroom Double Storey Townhouse
-            </div>
-            <div class="tarjdeescrip">
-              <div class="property-size property-company">
-                <div class="textotarjetas">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  setempor incididunt ut labore et dolore magna aliqua. Maecenas
-                  pharetra convallis posuere morbi leo . Donec ultrices
-                  tincidunt arcu etra pharetra pharetra pharetra pharetra
-                  pharetra pharetra pharetra pharetra pharetra pharetra pharetra
-                  pharetra
-                </div>
-              </div>
-            </div>
-            <div class="property-meta-datat-3 comapny-and-date last-child">
-              <div class="bathroom">
-                <img
+
+                  <div class="p-image-inner-info-top datecua">
+                    <object>
+                      <a href="trabajos.html#packaging">
+                        <div class="card-image-left-meta tagcard">
+                          <!-- <img
                   src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
                   alt=""
                   class="calendar"
-                />
+                /> -->
+
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            📦 Packaging
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                    <object>
+                      <a href="trabajos.html#branding">
+                        <div class="card-image-left-meta tagcard">
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            ➰ Branding
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                  </div>
+                </div>
+                <div class="property-details-4 vinoinicio">
+                  <div
+                    class="property-title-4"
+                    style="color: var(--negro-color)"
+                  >
+                    Tun Tun Alicante
+                  </div>
+                  <div class="tarjdeescrip">
+                    <div class="property-size property-company">
+                      <div
+                        class="textotarjetas"
+                        style="color: var(--negro-color)"
+                      >
+                        Tun Tun es un vino alicantino que, con su estilo casual
+                        y desenfadado, busca expresar la libertad de cada
+                        persona. Cada botella es un tributo a la individualidad,
+                        destinada a ser disfrutada sin restricciones,
+                        enriqueciendo cada encuentro y celebrando la diversidad
+                        de momentos y experiencias compartidas
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="property-meta-datat-3 comapny-and-date last-child"
+                  >
+                    <div class="bathroom">
+                      <img
+                        src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                        alt=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </a>
+          </div>
+        </div>
+        <div
+          id="w-node-_7f49d496-20d1-db00-69d9-8d6867a1b9c9-526b5a8f"
+          class="w-layout-cell portfolio-item filter-branding"
+        >
+          <div class="card-containercarta">
+            <a
+              href="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+            >
+              <div
+                class="content-containercarta"
+                style="background: rgb(57, 242, 220)"
+              >
+                <!--Color fondo carta -->
+
+                <div class="imagefoto">
+                  <div class="imagencontenido">
+                    <img src="img/GeneralAmbas_TunTun.jpg" alt="nft" />
+                  </div>
+
+                  <div class="p-image-inner-info-top datecua">
+                    <object>
+                      <a href="trabajos.html#packaging">
+                        <div class="card-image-left-meta tagcard">
+                          <!-- <img
+                src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                alt=""
+                class="calendar"
+              /> -->
+
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            📦 Packaging
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                    <object>
+                      <a href="trabajos.html#branding">
+                        <div class="card-image-left-meta tagcard">
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            ➰ Branding
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                  </div>
+                </div>
+                <div class="property-details-4 vinoinicio">
+                  <div
+                    class="property-title-4"
+                    style="color: var(--negro-color)"
+                  >
+                    Tun Tun Alicante
+                  </div>
+                  <div class="tarjdeescrip">
+                    <div class="property-size property-company">
+                      <div
+                        class="textotarjetas"
+                        style="color: var(--negro-color)"
+                      >
+                        Tun Tun es un vino alicantino que, con su estilo casual
+                        y desenfadado, busca expresar la libertad de cada
+                        persona. Cada botella es un tributo a la individualidad,
+                        destinada a ser disfrutada sin restricciones,
+                        enriqueciendo cada encuentro y celebrando la diversidad
+                        de momentos y experiencias compartidas
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="property-meta-datat-3 comapny-and-date last-child"
+                  >
+                    <div class="bathroom">
+                      <img
+                        src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                        alt=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          id="w-node-b5daeba5-420b-b1ca-6314-b033fc9c564c-526b5a8f"
+          class="w-layout-cell portfolio-item filter-branding"
+        >
+          <div class="card-containercarta">
+            <a
+              href="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+            >
+              <div
+                class="content-containercarta"
+                style="background: rgb(57, 242, 220)"
+              >
+                <!--Color fondo carta -->
+
+                <div class="imagefoto">
+                  <div class="imagencontenido">
+                    <img src="img/GeneralAmbas_TunTun.jpg" alt="nft" />
+                  </div>
+
+                  <div class="p-image-inner-info-top datecua">
+                    <object>
+                      <a href="trabajos.html#packaging">
+                        <div class="card-image-left-meta tagcard">
+                          <!-- <img
+                src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                alt=""
+                class="calendar"
+              /> -->
+
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            📦 Packaging
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                    <object>
+                      <a href="trabajos.html#branding">
+                        <div class="card-image-left-meta tagcard">
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            ➰ Branding
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                  </div>
+                </div>
+                <div class="property-details-4 vinoinicio">
+                  <div
+                    class="property-title-4"
+                    style="color: var(--negro-color)"
+                  >
+                    Tun Tun Alicante
+                  </div>
+                  <div class="tarjdeescrip">
+                    <div class="property-size property-company">
+                      <div
+                        class="textotarjetas"
+                        style="color: var(--negro-color)"
+                      >
+                        Tun Tun es un vino alicantino que, con su estilo casual
+                        y desenfadado, busca expresar la libertad de cada
+                        persona. Cada botella es un tributo a la individualidad,
+                        destinada a ser disfrutada sin restricciones,
+                        enriqueciendo cada encuentro y celebrando la diversidad
+                        de momentos y experiencias compartidas
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="property-meta-datat-3 comapny-and-date last-child"
+                  >
+                    <div class="bathroom">
+                      <img
+                        src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                        alt=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          id="w-node-_7d0c80e5-22c2-5cd6-36d2-b0fd962d2510-526b5a8f"
+          class="w-layout-cell portfolio-item filter-branding"
+        >
+          <div class="card-containercarta">
+            <a
+              href="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+            >
+              <div
+                class="content-containercarta"
+                style="background: rgb(57, 242, 220)"
+              >
+                <!--Color fondo carta -->
+
+                <div class="imagefoto">
+                  <div class="imagencontenido">
+                    <img src="img/GeneralAmbas_TunTun.jpg" alt="nft" />
+                  </div>
+
+                  <div class="p-image-inner-info-top datecua">
+                    <object>
+                      <a href="trabajos.html#packaging">
+                        <div class="card-image-left-meta tagcard">
+                          <!-- <img
+                src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                alt=""
+                class="calendar"
+              /> -->
+
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            📦 Packaging
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                    <object>
+                      <a href="trabajos.html#branding">
+                        <div class="card-image-left-meta tagcard">
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            ➰ Branding
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                  </div>
+                </div>
+                <div class="property-details-4 vinoinicio">
+                  <div
+                    class="property-title-4"
+                    style="color: var(--negro-color)"
+                  >
+                    Tun Tun Alicante
+                  </div>
+                  <div class="tarjdeescrip">
+                    <div class="property-size property-company">
+                      <div
+                        class="textotarjetas"
+                        style="color: var(--negro-color)"
+                      >
+                        Tun Tun es un vino alicantino que, con su estilo casual
+                        y desenfadado, busca expresar la libertad de cada
+                        persona. Cada botella es un tributo a la individualidad,
+                        destinada a ser disfrutada sin restricciones,
+                        enriqueciendo cada encuentro y celebrando la diversidad
+                        de momentos y experiencias compartidas
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="property-meta-datat-3 comapny-and-date last-child"
+                  >
+                    <div class="bathroom">
+                      <img
+                        src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                        alt=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div
+          id="w-node-_888f0eb1-fccf-a547-b72b-7873331ded5e-526b5a8f"
+          class="w-layout-cell portfolio-item filter-branding"
+        >
+          <div class="card-containercarta">
+            <a
+              href="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+            >
+              <div
+                class="content-containercarta"
+                style="background: rgb(57, 242, 220)"
+              >
+                <!--Color fondo carta -->
+
+                <div class="imagefoto">
+                  <div class="imagencontenido">
+                    <img src="img/GeneralAmbas_TunTun.jpg" alt="nft" />
+                  </div>
+
+                  <div class="p-image-inner-info-top datecua">
+                    <object>
+                      <a href="trabajos.html#packaging">
+                        <div class="card-image-left-meta tagcard">
+                          <!-- <img
+                src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                alt=""
+                class="calendar"
+              /> -->
+
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            📦 Packaging
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                    <object>
+                      <a href="trabajos.html#branding">
+                        <div class="card-image-left-meta tagcard">
+                          <div
+                            class="text-block-4 feature-label pill-red price-pill pruevba"
+                          >
+                            ➰ Branding
+                          </div>
+                        </div>
+                      </a>
+                    </object>
+                  </div>
+                </div>
+                <div class="property-details-4 vinoinicio">
+                  <div
+                    class="property-title-4"
+                    style="color: var(--negro-color)"
+                  >
+                    Tun Tun Alicante
+                  </div>
+                  <div class="tarjdeescrip">
+                    <div class="property-size property-company">
+                      <div
+                        class="textotarjetas"
+                        style="color: var(--negro-color)"
+                      >
+                        Tun Tun es un vino alicantino que, con su estilo casual
+                        y desenfadado, busca expresar la libertad de cada
+                        persona. Cada botella es un tributo a la individualidad,
+                        destinada a ser disfrutada sin restricciones,
+                        enriqueciendo cada encuentro y celebrando la diversidad
+                        de momentos y experiencias compartidas
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="property-meta-datat-3 comapny-and-date last-child"
+                  >
+                    <div class="bathroom">
+                      <img
+                        src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
+                        alt=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-      <div
-        id="w-node-_7f49d496-20d1-db00-69d9-8d6867a1b9c9-526b5a8f"
-        class="w-layout-cell"
-      >
-        <div class="property-card">
-          <div class="property-image custom-bg _2">
-            <div class="property-image-inner">
-              <div class="div-block-129"></div>
-              <div class="p-image-inner-info-top">
-                <div class="card-image-left-meta tagcard">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
+
+      <div class="footer">
+        <div class="waves---main-container w-container">
+          <div class="waves-top-footer-1">
+            <a href="index.html" class="w-inline-block"
+              ><img
+                src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/650225020e0ce2da93edfd75_Recurso%206.svg"
+                loading="lazy"
+                width="141"
+                height="36"
+                alt=""
+                class="logo-foot"
+            /></a>
+            <div class="waves-top-right-footer-1">
+              <h1 class="heading">¡Mira mis redes!</h1>
+              <ul role="list" class="redesfood w-list-unstyled">
+                <li class="list-item-foot">
+                  <a
+                    href="mailto:pawdelas3@gmail.com"
+                    class="link-red-foot w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64ecd77df8e651be80cb01ae_sobre.svg"
+                      loading="lazy"
+                      alt=""
+                      class="image"
+                    />
+                    <div class="nav-link-2">Email</div></a
                   >
-                    Editorial
-                  </div>
-                </div>
-                <div class="card-image-left-meta tagcard tagaz">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
+                </li>
+                <li class="list-item-foot">
+                  <a href="#" class="link-red-foot w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64f8663699ed4c91d4a7bd78_instagram.svg"
+                      loading="lazy"
+                      width="17"
+                      alt=""
+                      class="waves-icon-24"
+                    />
+                    <div class="nav-link-2">Instagram</div></a
                   >
-                    Señalética
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="property-details-4 vinoinicio">
-            <div class="property-title-4">
-              4 Bedroom Double Storey Townhouse
-            </div>
-            <div class="tarjdeescrip">
-              <div class="property-size property-company">
-                <div class="textotarjetas">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  setempor incididunt ut labore et dolore magna aliqua. Maecenas
-                  pharetra convallis posuere morbi leo . Donec ultrices
-                  tincidunt arcu etra pharetra pharetra pharetra pharetra
-                  pharetra pharetra pharetra pharetra pharetra pharetra pharetra
-                  pharetra
-                </div>
-              </div>
-            </div>
-            <div class="property-meta-datat-3 comapny-and-date last-child">
-              <div class="bathroom">
-                <img
-                  src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                  alt=""
-                  class="calendar"
-                />
-              </div>
+                </li>
+                <li class="list-item-foot">
+                  <a href="#" class="link-red-foot w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64f8663699ed4c91d4a7bd79_google-circle.svg"
+                      loading="lazy"
+                      alt=""
+                      class="waves-icon-24"
+                    />
+                    <div class="nav-link-2">Behance</div></a
+                  >
+                </li>
+                <li class="list-item-foot">
+                  <a href="#" class="link-red-foot w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64f8663699ed4c91d4a7bd79_google-circle.svg"
+                      loading="lazy"
+                      alt=""
+                      class="waves-icon-24"
+                    />
+                    <div class="nav-link-2">Linkedin</div></a
+                  >
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-      <div
-        id="w-node-b5daeba5-420b-b1ca-6314-b033fc9c564c-526b5a8f"
-        class="w-layout-cell"
-      >
-        <div class="property-card">
-          <div class="property-image custom-bg _2">
-            <div class="property-image-inner">
-              <div class="div-block-129"></div>
-              <div class="p-image-inner-info-top">
-                <div class="card-image-left-meta tagcard">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Editorial
-                  </div>
-                </div>
-                <div class="card-image-left-meta tagcard tagaz">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Señalética
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="property-details-4 vinoinicio">
-            <div class="property-title-4">
-              4 Bedroom Double Storey Townhouse
-            </div>
-            <div class="tarjdeescrip">
-              <div class="property-size property-company">
-                <div class="textotarjetas">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  setempor incididunt ut labore et dolore magna aliqua. Maecenas
-                  pharetra convallis posuere morbi leo . Donec ultrices
-                  tincidunt arcu etra pharetra pharetra pharetra pharetra
-                  pharetra pharetra pharetra pharetra pharetra pharetra pharetra
-                  pharetra
-                </div>
-              </div>
-            </div>
-            <div class="property-meta-datat-3 comapny-and-date last-child">
-              <div class="bathroom">
-                <img
-                  src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                  alt=""
-                  class="calendar"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        id="w-node-_7d0c80e5-22c2-5cd6-36d2-b0fd962d2510-526b5a8f"
-        class="w-layout-cell"
-      >
-        <div class="property-card">
-          <div class="property-image custom-bg _2">
-            <div class="property-image-inner">
-              <div class="div-block-129"></div>
-              <div class="p-image-inner-info-top">
-                <div class="card-image-left-meta tagcard">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Editorial
-                  </div>
-                </div>
-                <div class="card-image-left-meta tagcard tagaz">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Señalética
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="property-details-4 vinoinicio">
-            <div class="property-title-4">
-              4 Bedroom Double Storey Townhouse
-            </div>
-            <div class="tarjdeescrip">
-              <div class="property-size property-company">
-                <div class="textotarjetas">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  setempor incididunt ut labore et dolore magna aliqua. Maecenas
-                  pharetra convallis posuere morbi leo . Donec ultrices
-                  tincidunt arcu etra pharetra pharetra pharetra pharetra
-                  pharetra pharetra pharetra pharetra pharetra pharetra pharetra
-                  pharetra
-                </div>
-              </div>
-            </div>
-            <div class="property-meta-datat-3 comapny-and-date last-child">
-              <div class="bathroom">
-                <img
-                  src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                  alt=""
-                  class="calendar"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        id="w-node-_888f0eb1-fccf-a547-b72b-7873331ded5e-526b5a8f"
-        class="w-layout-cell"
-      >
-        <div class="property-card">
-          <div class="property-image custom-bg _2">
-            <div class="property-image-inner">
-              <div class="div-block-129"></div>
-              <div class="p-image-inner-info-top">
-                <div class="card-image-left-meta tagcard">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Editorial
-                  </div>
-                </div>
-                <div class="card-image-left-meta tagcard tagaz">
-                  <img
-                    src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                    alt=""
-                    class="calendar"
-                  />
-                  <div
-                    class="text-block-4 feature-label pill-red price-pill pruevba"
-                  >
-                    Señalética
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="property-details-4 vinoinicio">
-            <div class="property-title-4">
-              4 Bedroom Double Storey Townhouse
-            </div>
-            <div class="tarjdeescrip">
-              <div class="property-size property-company">
-                <div class="textotarjetas">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  setempor incididunt ut labore et dolore magna aliqua. Maecenas
-                  pharetra convallis posuere morbi leo . Donec ultrices
-                  tincidunt arcu etra pharetra pharetra pharetra pharetra
-                  pharetra pharetra pharetra pharetra pharetra pharetra pharetra
-                  pharetra
-                </div>
-              </div>
-            </div>
-            <div class="property-meta-datat-3 comapny-and-date last-child">
-              <div class="bathroom">
-                <img
-                  src="https://uploads-ssl.webflow.com/64ef83ce3c5455ffa6773a2f/64ef83ce3c5455ffa6773b10_bed.svg"
-                  alt=""
-                  class="calendar"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="waves---main-container w-container">
-        <div class="waves-top-footer-1">
-          <a href="index.html" class="w-inline-block"
-            ><img
-              src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/650225020e0ce2da93edfd75_Recurso%206.svg"
-              loading="lazy"
-              width="141"
-              height="36"
-              alt=""
-              class="logo-foot"
-          /></a>
-          <div class="waves-top-right-footer-1">
-            <h1 class="heading">¡Mira mis redes!</h1>
-            <ul role="list" class="redesfood w-list-unstyled">
-              <li class="list-item-foot">
-                <a
-                  href="mailto:pawdelas3@gmail.com"
-                  class="link-red-foot w-inline-block"
-                  ><img
-                    src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64ecd77df8e651be80cb01ae_sobre.svg"
-                    loading="lazy"
-                    alt=""
-                    class="image"
-                  />
-                  <div class="nav-link-2">Email</div></a
-                >
-              </li>
-              <li class="list-item-foot">
-                <a href="#" class="link-red-foot w-inline-block"
-                  ><img
-                    src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64f8663699ed4c91d4a7bd78_instagram.svg"
-                    loading="lazy"
-                    width="17"
-                    alt=""
-                    class="waves-icon-24"
-                  />
-                  <div class="nav-link-2">Instagram</div></a
-                >
-              </li>
-              <li class="list-item-foot">
-                <a href="#" class="link-red-foot w-inline-block"
-                  ><img
-                    src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64f8663699ed4c91d4a7bd79_google-circle.svg"
-                    loading="lazy"
-                    alt=""
-                    class="waves-icon-24"
-                  />
-                  <div class="nav-link-2">Behance</div></a
-                >
-              </li>
-              <li class="list-item-foot">
-                <a href="#" class="link-red-foot w-inline-block"
-                  ><img
-                    src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64f8663699ed4c91d4a7bd79_google-circle.svg"
-                    loading="lazy"
-                    alt=""
-                    class="waves-icon-24"
-                  />
-                  <div class="nav-link-2">Linkedin</div></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+
         <div class="footer-bottom">
           <div class="footer-copyright">
             © 2023 Paula López. Todos los derechos reservados
@@ -730,5 +885,55 @@ data-wf-site="63d66ef75236771f572e93cb">
     ></script>
     <script src="mainone.js" type="text/javascript"></script>
     <script src="maintwo.js" type="text/javascript"></script>
+    <script>
+      $(document).ready(function () {
+        // Función para aplicar un filtro y actualizar la URL
+        function aplicarFiltro(categoria) {
+          // Remueve la clase "filter-active" de todos los elementos
+          $("#portfolio-flters li").removeClass("filter-active");
+
+          // Agrega la clase "filter-active" al elemento correspondiente a la categoría
+          $(
+            `#portfolio-flters li[data-filter='.filter-${categoria}']`
+          ).addClass("filter-active");
+
+          // Oculta todos los elementos y muestra solo los de la categoría correspondiente
+          $("#portfolio-wrapper").fadeTo(100, 0);
+          $(".portfolio-item").fadeOut().css("transform", "scale(0)");
+          setTimeout(function () {
+            $(`.filter-${categoria}`).fadeIn(100).css("transform", "scale(1)");
+            $("#portfolio-wrapper").fadeTo(300, 1);
+          }, 300);
+
+          // Actualiza la URL sin el fragmento
+          window.history.replaceState(
+            {},
+            document.title,
+            window.location.pathname
+          );
+        }
+
+        // Obtén la categoría de la URL utilizando el fragmento (hash)
+        const categoria = window.location.hash.substring(1);
+
+        // Si se encuentra una categoría válida en la URL, aplica el filtro
+        if (categoria) {
+          aplicarFiltro(categoria);
+        }
+
+        // Maneja el evento de clic en los elementos del filtro
+        $("#portfolio-flters li").click(function () {
+          const selectedFilter = $(this).data("filter");
+          aplicarFiltro(selectedFilter.substring(8)); // Elimina ".filter-"
+
+          // Limpia el fragmento de la URL después de aplicar el filtro
+          window.history.replaceState(
+            {},
+            document.title,
+            window.location.pathname
+          );
+        });
+      });
+    </script>
   </body>
 </html>
