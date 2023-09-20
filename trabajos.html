@@ -136,10 +136,13 @@
         </div>
       </div>
     </div>
-    <div class="nav_overlay">
+    <div class="nav_overlay" style="overflow: hidden !important;">
       <div class="navmovilcontenido">
         <div class="lista">
-          <a href="index.html" class="itemlista w-inline-block"
+          <a
+            href="index.html"
+            aria-current="page"
+            class="itemlista w-inline-block w--current"
             ><img
               src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64ecd77df8e651be80cb01ae_sobre.svg"
               loading="lazy"
@@ -147,10 +150,7 @@
               class="image-50"
             />
             <div class="textonavnew">Inicio</div></a
-          ><a
-            href="trabajos.html"
-            aria-current="page"
-            class="itemlista w-inline-block w--current"
+          ><a href="trabajos.html" class="itemlista w-inline-block"
             ><img
               src="https://uploads-ssl.webflow.com/63d66ef75236771f572e93cb/64ecd77df8e651be80cb01ae_sobre.svg"
               loading="lazy"
@@ -935,5 +935,23 @@
         });
       });
     </script>
+
+
+<script>
+  $(document).ready(function(){
+    var $popContainer = $('#popup-container');
+    var $body = $('html,body');
+
+    $('#fire-popup').on('click', function() {
+        $popContainer.fadeIn();
+        $body.addClass('block-scroll'); // clase de manejo
+    });
+    $('#popup-overlay').on('click', function() {
+        $popContainer.fadeOut();
+        $body.removeClass('block-scroll'); // clase de manejo
+    });
+});
+</script>
+
   </body>
 </html>
