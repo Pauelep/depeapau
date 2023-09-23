@@ -1,0 +1,12 @@
+body {
+    cursor: none; /* Oculta el cursor predeterminado del ratón */
+}
+
+.custom-cursor {
+    position: absolute;
+    font-size: 24px;
+    color: #ff0000; /* Color del texto "Hola" */
+    pointer-events: none; /* Evita que el cursor personalizado interactúe con elementos */
+    top: 0;
+    left: 0;
+}

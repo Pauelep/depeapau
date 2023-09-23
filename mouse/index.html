@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            cursor: none; /* Oculta el cursor predeterminado del ratón en todo el documento */
+        }
+
+        .custom-cursor {
+            position: absolute;
+            font-size: 24px;
+            display: none; /* Inicialmente oculto */
+        }
+
+        a {
+            cursor: none; /* Cambia el tipo de cursor predeterminado a "default" en los enlaces */
+        }
+        input {
+            cursor: none; /* Cambia el tipo de cursor predeterminado a "default" en los enlaces */
+        }
+    </style>
+    <title>Cursor Personalizado</title>
+</head>
+<body id="custom-cursor">
+    <h1>Pasa el ratón sobre el contenido</h1>
+    <a href="#">Enlace 1</a>
+    <a href="#">Enlace 2</a>
+    <div>No es un enlace</div>
+    <input type="text">
+    <input type="text" id="custom-input">
+    <div class="custom-cursor"></div>
+    <script>
+        const customCursor = document.querySelector('.custom-cursor');
+        const links = document.querySelectorAll('a');
+        const inputElement = document.getElementById('custom-input');
+
+        document.addEventListener('mousemove', (e) => {
+            customCursor.style.display = 'block'; // Muestra el cursor personalizado
+            let isOverLink = false;
+
+            // Verifica si el cursor está sobre un enlace por sus coordenadas
+            links.forEach((link) => {
+                const rect = link.getBoundingClientRect();
+                if (
+                    e.clientX >= rect.left &&
+                    e.clientX <= rect.right &&
+                    e.clientY >= rect.top &&
+                    e.clientY <= rect.bottom
+                ) {
+                    isOverLink = true;
+                }
+            });
+
+            // Cambia el cursor al pasar por encima del input
+            if (e.target === inputElement) {
+                customCursor.textContent = '🖋️'; // Cambia a un emoji de pluma
+                customCursor.style.left = (e.pageX + 10) + 'px'; // Ajusta la posición del cursor
+                customCursor.style.top = (e.pageY - 30) + 'px'; // Ajusta la posición del cursor
+            } else if (isOverLink) {
+                customCursor.textContent = '🤏';
+                customCursor.style.left = (e.pageX + 0) + 'px'; // Restaura la posición del cursor
+                customCursor.style.top = (e.pageY + 0) + 'px'; // Restaura la posición del cursor
+            } else {
+                customCursor.textContent = '👆';
+                customCursor.style.left = (e.pageX + 0) + 'px'; // Restaura la posición del cursor
+                customCursor.style.top = (e.pageY + 0) + 'px'; // Restaura la posición del cursor
+            }
+        });
+    </script>
+</body>
+</html>

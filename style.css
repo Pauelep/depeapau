@@ -4,10 +4,22 @@
 }
 
 
-  
-  body {
-    margin: 0;
+  html {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'> 👆</text></svg>"), auto!important;
   }
+  a {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🤏</text></svg>"), auto!important;
+
+  }
+  button{
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🤏</text></svg>"), auto!important;
+
+  }
+  li{
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🤏</text></svg>"), auto!important;
+
+  }
+  
   
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
@@ -269,13 +281,15 @@
   .w-button {
     color: #fff;
     line-height: inherit;
-    cursor: pointer;
     background-color: #3898ec;
     border: 0;
     border-radius: 0;
     padding: 9px 15px;
     text-decoration: none;
     display: inline-block;
+
+
+
   }
   
   input.w-button {
@@ -6468,6 +6482,9 @@
     bottom: 2%;
     left: auto;
     right: 2%;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🤏</text></svg>"), auto!important;
+
+    
   }
   
   .logo-foot {
