@@ -1,5 +1,5 @@
 :root {
-  --negro-color: #333; /* Color para el encabezado */
+  --negro-color: #272727; /* Color para el encabezado */
   --blanco-color: #ffffff; /* Color para el título */
 }
 
@@ -6581,6 +6581,8 @@
     display: flex;
   }
   
+
+
   @media screen and (min-width: 1440px) {
     .cell-9 {
       padding-left: 1rem;
@@ -8943,9 +8945,11 @@
     transition: all 0.3s ease-in-out;
   }
   
-  #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-    background: #2dc997;
-    color: #fff;
+
+
+ .filter-active .probatg{
+    background-color: var(--negro-color);
+    color: var(--blanco-color);    
   }
   
   #portfolio .portfolio-item {
