@@ -1327,13 +1327,10 @@ textarea.w-select {
 }
 
 .navmovilcontenido {
-  font-family: "HKGrotesk";  font-weight: 900;
+  font-family: "HKGrotesk";  font-weight: 600;
 }
 
-.navbar-menu-2 {
-  font-family: "HKGrotesk";
-  font-weight: 900;
-}
+
 
 .w-slider-nav.w-round>div {
   border-radius: 100%;
@@ -3415,13 +3412,15 @@ li {
 .nav-link-2 {
   color: #1a1b1f;
   letter-spacing: .25px;
-  background-color: rgba(255, 255, 255, 0);
+
   border-radius: 20px;
   align-self: auto;
   margin-left: 0;
   margin-right: 0;
-  padding: 0px 0 0px 10px;
-  font-size: 18px;
+  padding: 0px 0 0px 0px;
+  font-size: 20px;
+  font-family: "HKGrotesk";
+  font-weight: 600;
   line-height: 18px;
   text-decoration: none;
 }
@@ -5086,7 +5085,7 @@ li {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 15px;
-  font-family: Montserrat, sans-serif;
+  font-family:  "HKGrotesk", sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
@@ -5262,7 +5261,7 @@ li {
   color: #fff;
   flex: 0 auto;
   align-items: flex-start;
-  font-family: Montserrat, sans-serif;
+  font-family: "HKGrotesk", sans-serif;
   font-size: 20px;
   font-weight: 400;
   display: flex;
@@ -5393,10 +5392,10 @@ li {
 }
 
 .property-title-3 {
-  color: #fff;
+  color: #ffffff;
   padding-top: 20px;
   padding-bottom: 15px;
-  font-family: Montserrat, sans-serif;
+  font-family:  "HKGrotesk", sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
@@ -5457,7 +5456,6 @@ li {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 15px;
-  font-family: Montserrat, sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
@@ -6644,17 +6642,20 @@ li {
 
 .link-block {
   background-color: #fff;
+  border-style:solid;
+  border-width: 0.15rem;
+  border-color: var(--negro-color);
   border-radius: 100px;
   align-items: flex-start;
   /* align-items: center; */
-  padding: 10px 25px;
+  padding: 5px 20px;
   text-decoration: none;
   display: flex;
 }
 
 .link-block:hover {
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .link-red-foot {
