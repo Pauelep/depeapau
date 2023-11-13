@@ -5267,6 +5267,7 @@ li {
   font-weight: 400;
   display: flex;
 }
+
 .textofichas {
   width: auto;
   min-height: 100px;
@@ -5274,8 +5275,8 @@ li {
   flex: 0 auto;
   align-items: flex-start;
   font-family: "HKGrotesk", sans-serif;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   font-weight: 400;
   display: flex;
 }
@@ -5471,6 +5472,39 @@ li {
   padding-bottom: 15px;
   font-size: 32px;
   font-weight: 700;
+}
+
+.property-title-5 {
+  color: var(--negro-color);
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 500;
+}
+
+.datosproy {
+  list-style: none;
+  padding: 0%;
+}
+
+.datosproy li {
+
+  padding: 0%;
+}
+
+.datit {
+  font-size: 1.3rem;
+  font-family: "HKGrotesk";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cosotit {
+  font-size: 1.3rem;
+  font-family: "HKGrotesk";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .property-details-4 {
@@ -9029,7 +9063,7 @@ li {
   height: Auto;
   width: 100%;
 
-  
+
 }
 
 
