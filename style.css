@@ -5267,6 +5267,18 @@ li {
   font-weight: 400;
   display: flex;
 }
+.textofichas {
+  width: auto;
+  min-height: 100px;
+  color: var(--negro-color);
+  flex: 0 auto;
+  align-items: flex-start;
+  font-family: "HKGrotesk", sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  display: flex;
+}
 
 .bathroom-2 {
   justify-content: flex-end;
@@ -7182,7 +7194,6 @@ li {
   }
 
   .textotarjetas {
-x
     font-size: 16px;
     line-height: 14px;
   }
