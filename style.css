@@ -9085,6 +9085,13 @@ li {
 
 
 }
+.contendtrab img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2.8rem;
+  height: 30rem;
+
+}
 
 .content-containercarta .imagefoto .datecua {
   bottom: 0;
@@ -9202,6 +9209,15 @@ li {
   border-radius: 3rem;
   border-color: var(--negro-color);
 }
+
+.contendtrab {
+margin-bottom: 1rem;
+  min-height: 22 rem;
+  border-style: solid;
+  border-radius: 3rem;
+  border-color: var(--negro-color);
+}
+
 
 
 /*=============================
