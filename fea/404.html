@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Página no encontrada</title>
+    <style>
+        body {
+            font-family: 'Impacc', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(0deg, rgba(79, 144, 253, 1) 0%, rgba(0, 209, 79, 1) 53%, rgba(253, 153, 15, 1) 100%);
+            background-attachment: fixed;
+        }
+
+        .error-container {
+            text-align: center;
+        }
+
+        .error-code {
+            font-size: 6em;
+            color: #d6e73c; /* Color rojo para el código de error */
+            text-shadow: 3px 3px 5px #888888; /* Efecto relieve */
+            display: inline-block;
+        }
+
+        .error-code span {  font-family: 'Impact', sans-serif !important;
+            display: inline-block;
+            animation: jump 0.5s infinite alternate;
+        }
+
+        .error-code span:nth-child(2) {
+            animation-delay: 0.2s; /* Retraso para el segundo número */
+        }
+
+        .error-code span:nth-child(3) {
+            animation-delay: 0.4s; /* Retraso para el tercer número */
+        }
+
+        .message {
+            font-size: 1.5em;
+            color: #555;
+        }
+
+        .try-again {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4285f4;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .try-again:hover {
+            background-color: #0f4cbf;
+        }
+
+        @media (max-width: 600px) {
+            .error-code {
+                font-size: 3em;
+            }
+
+            .message {
+                font-size: 1em;
+            }
+        }
+
+        /* Animación de salto */
+        @keyframes jump {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-container">
+        <div class="error-code">
+            <span>4</span>
+            <span>0</span>
+            <span>4</span>
+        </div>
+        <div class="message">¡Ups! No has acertado</div>
+        <a href="#" class="try-again">Inténtalo otra vez ;)</a>
+    </div>
+</body>
+
+</html>
