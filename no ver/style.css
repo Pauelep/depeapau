@@ -3730,7 +3730,7 @@ li {
 }
 
 .list-item {
-  background-color: rgba(255, 2, 2, 0);
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 40px;
   flex: 0 auto;
   order: 1;
@@ -3743,7 +3743,6 @@ li {
 }
 
 .list-item:hover {
-
   padding-left: 0;
   padding-right: 0;
 }
@@ -5259,7 +5258,7 @@ li {
 
 .textotarjetas {
   width: auto;
-  min-height: 50px;
+  min-height: 100px;
   color: var(--negro-color);
   flex: 0 auto;
   align-items: flex-start;
@@ -5280,21 +5279,6 @@ li {
   line-height: 2.5rem;
   font-weight: 400;
   display: flex;
-}
-.textodescri {
-  width: auto;
-  min-height: 100px;
-  color: var(--negro-color);
-  align-items: flex-start;
-  font-family: "HKGrotesk", sans-serif;
-  font-size: 2rem;
-  line-height: 2rem;
-  font-weight: 400;
-
-}
-.textodescri p{
-padding-bottom: 1rem;
-
 }
 
 .bathroom-2 {
@@ -6721,7 +6705,6 @@ padding-bottom: 1rem;
   padding-right: 25px;
 }
 
-
 .link-red-foot {
   align-items: center;
   padding: 5px 25px;
@@ -6832,13 +6815,13 @@ padding-bottom: 1rem;
 
 .probatg {
   background-color: #fff;
-  border: 0.15rem solid #272727;
+  border: .4em solid #272727;
   border-radius: 100px;
   flex-flow: wrap;
   align-content: stretch;
   justify-content: center;
   align-items: stretch;
-  padding: 5px 20px;
+  padding: 10px 18px;
   display: flex;
 }
 
@@ -6861,7 +6844,7 @@ padding-bottom: 1rem;
 .probatgtext {
   justify-content: center;
   align-items: center;
-
+  padding-left: 10px;
   font-size: 16px;
   font-weight: 500;
   display: flex;
@@ -9079,10 +9062,6 @@ padding-bottom: 1rem;
   position: static;
   height: Auto;
   width: 100%;
-  border-width: 0.15rem;
-  border-style: solid;
-  border-radius: 3rem;
-  border-color: var(--negro-color);
 
 
 }
@@ -9106,8 +9085,7 @@ padding-bottom: 1rem;
 
 
 }
-
-.contendtrab img {
+.contendtrab img{
   width: 100%;
   object-fit: cover;
   border-radius: 2.8rem;
@@ -9227,11 +9205,13 @@ padding-bottom: 1rem;
 .imagencontenido {
   width: auto;
   min-height: 22 rem;
-
+  border-style: solid;
+  border-radius: 3rem;
+  border-color: var(--negro-color);
 }
 
 .contendtrab {
-  margin-bottom: 1rem;
+margin-bottom: 1rem;
   min-height: 22 rem;
   border-style: solid;
   border-radius: 3rem;
