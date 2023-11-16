@@ -3905,6 +3905,23 @@ li {
   color: rgba(26, 27, 31, .75);
 }
 
+.vuelta {
+  background: linear-gradient(270deg, #ffd335, #0aff40, #4f90fd);
+  background-size: 1000% 1000%;
+  border: 0!important;
+  color: var(--blanco-color)!important;
+
+  animation: DegVuelta 10s ease infinite;
+}
+
+@keyframes DegVuelta {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+
 .button-primary-3 {
   color: #fff;
   letter-spacing: 2px;
