@@ -208,15 +208,7 @@ samp {
   font-size: 1em;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
+
 
 button {
   overflow: visible;
@@ -280,9 +272,7 @@ legend {
   padding: 0;
 }
 
-textarea {
-  overflow: auto;
-}
+
 
 optgroup {
   font-weight: bold;
@@ -613,10 +603,7 @@ fieldset[disabled]:not(.w-input-disabled) .w-select {
   background-color: #eee;
 }
 
-textarea.w-input,
-textarea.w-select {
-  height: auto;
-}
+
 
 .w-select {
   background-color: #f3f3f3;
@@ -5281,22 +5268,87 @@ li {
   font-weight: 400;
   display: flex;
 }
+.datos{
+
+  padding-top: 2rem!important;
+}
 .textodescri {
   width: auto;
   min-height: 100px;
   color: var(--negro-color);
   align-items: flex-start;
   font-family: "HKGrotesk", sans-serif;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
   font-weight: 400;
 
 }
-.textodescri p{
-padding-bottom: 1rem;
+
+.textodescri p {
+  padding-bottom: 1rem;
 
 }
 
+.edtitle {
+  font-family: "HKGrotesk", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  padding-bottom: 1rem;
+
+
+}
+
+.educa li {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 1rem;
+
+}
+
+ul.educa {
+  /* font-weight: 500;
+  font-size: 2.5rem; */
+  list-style: none;
+  padding: 0;
+
+}
+
+.alia-link-2 {
+  border-radius: 20px;
+  align-self: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0px 0 0px 0px;
+  font-size:1.5rem;
+  font-family: "HKGrotesk";
+  font-weight: 800;
+  line-height: 1.5rem;
+  text-decoration: none;
+
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.link-block2 {
+  border-radius: 100px;
+  align-items: flex-start;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.link-block2:hover {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.habilidades li{
+padding-bottom: 1rem;
+
+
+}
 .bathroom-2 {
   justify-content: flex-end;
   padding-right: 4px;
