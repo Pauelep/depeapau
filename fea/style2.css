@@ -1,0 +1,163 @@
+body {
+
+    margin: 0%;
+    background: linear-gradient(0deg, rgba(79, 144, 253, 1) 0%, rgba(0, 209, 79, 1) 53%, rgba(253, 153, 15, 1) 100%);
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "postino-std", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.svg-container {
+    position: relative;
+   
+    height: 170px;
+    /* Ajusta esta propiedad para cambiar la posición vertical */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif !important;
+    color: #1723FF !important;
+ 
+}
+
+a.redes {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif !important;
+    color: rgb(8, 68, 136) !important;
+    font-size: 30px !important;
+}
+
+path {
+    fill: transparent;
+}
+
+text {
+    font-family: 'Impact', sans-serif !important;
+    font-size: 20px !important;
+    fill: #ffffff;
+    text-shadow: 5px 0px 7px rgb(0, 0, 0, 0.4);
+}
+
+
+
+h2 {
+    font-family: "postino-std", serif;
+    color: #000000 !important;
+    font-size: 19px !important;
+    padding-bottom: 5px;
+}
+
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+    color: #000000 !important;
+    font-size: 20px !important;
+    line-height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    hyphens: auto;
+    margin: 0px !important;
+
+}
+
+.destacado {
+
+    background-color: rgb(238, 241, 44);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    hyphens: auto;
+
+
+}
+
+.destacado2 {
+
+    background-color: rgb(241, 123, 44);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    hyphens: auto;
+
+
+}
+
+.descri {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 600px) {
+
+
+    a {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif !important;
+        color: #1723FF !important;
+        font-size: 30px !important;
+        padding-bottom: 10px;
+     
+    }
+    
+.svg-container {
+    position: relative;
+    top: 1em;
+    height: 70px;
+
+    /* Ajusta esta propiedad para cambiar la posición vertical */
+}
+
+
+ 
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  
+
+    a {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif !important;
+        color: #1723FF !important;
+        font-size: 30px !important;
+        padding-bottom: 0px;
+     
+    }
+    
+.svg-container {
+    position: relative;
+    top: -7em;
+    height: 170px;
+    /* Ajusta esta propiedad para cambiar la posición vertical */
+}
+
+
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+
+    a {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif !important;
+        color: #1723FF !important;
+        font-size: 40px !important;
+    }
+
+   
+}
