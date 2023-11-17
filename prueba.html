@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Lista Interactiva</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2>Selecciona una opción:</h2>
+
+      <div class="list-group col-12">
+        <ul class="row">
+          <li>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action col-3 "
+              onclick="mostrarOpciones()"
+              >Selecciona</a
+            >
+          </li>
+
+<li>
+    <a href="#" class="list-group-item list-group-item-action hidden col-3"
+    >Editorial</a
+  >
+
+  <li>
+    <a href="#" class="list-group-item list-group-item-action hidden col-3"
+    >Web</a
+  >
+
+  </li>
+
+</li>
+
+
+
+
+        </ul>
+
+      
+      
+      </div>
+    </div>
+
+    <script>
+      function mostrarOpciones() {
+        var opciones = document.querySelectorAll(".hidden");
+        opciones.forEach(function (opcion) {
+          opcion.classList.remove("hidden");
+        });
+      }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
