@@ -3908,16 +3908,24 @@ li {
 .vuelta {
   background: linear-gradient(270deg, #ffd335, #0aff40, #4f90fd);
   background-size: 1000% 1000%;
-  border: 0!important;
-  color: var(--blanco-color)!important;
+  border: 0 !important;
+  color: var(--blanco-color) !important;
 
   animation: DegVuelta 10s ease infinite;
 }
 
 @keyframes DegVuelta {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
 }
 
 
@@ -5286,10 +5294,12 @@ li {
   font-weight: 400;
   display: flex;
 }
-.datos{
 
-  padding-top: 2rem!important;
+.datos {
+
+  padding-top: 2rem !important;
 }
+
 .textodescri {
   width: auto;
   min-height: 100px;
@@ -5340,7 +5350,7 @@ ul.educa {
   margin-left: 0;
   margin-right: 0;
   padding: 0px 0 0px 0px;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   font-family: "HKGrotesk";
   font-weight: 800;
   line-height: 1.5rem;
@@ -5362,11 +5372,13 @@ ul.educa {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.habilidades li{
-padding-bottom: 1rem;
+
+.habilidades li {
+  padding-bottom: 1rem;
 
 
 }
+
 .bathroom-2 {
   justify-content: flex-end;
   padding-right: 4px;
@@ -9130,6 +9142,58 @@ padding-bottom: 1rem;
 
 
 
+/*=============================
+=            Presen          =
+===============================*/
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-right: 1rem;
+}
+
+.presentacion a {
+  text-decoration: none;
+  color: var(--negro-color);
+
+}
+
+.presentacion a:hover {
+  text-decoration: none;
+  color: rgba(39, 39, 39, .5);
+}
+
+.presenta {
+  font-size: 7.5rem;
+  line-height: 7rem;
+}
+
+.list-group li {
+padding-left: 0;
+  font-size: 7.5rem;
+  line-height: 7rem;
+
+
+
+}
+
+.lista-objeto {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 0.15rem;
+  padding: 1.5rem 1.5rem;
+  border-radius: 6rem;
+
+
+}
+
+
+
+/*=============================
+=            presen          =
+===============================*/
 
 
 /*=============================
@@ -9178,7 +9242,7 @@ padding-bottom: 1rem;
 }
 
 .contendtrab img {
-  width: 120rem; 
+  width: 120rem;
   object-fit: cover;
   border-radius: 2.8rem;
   height: 60rem;

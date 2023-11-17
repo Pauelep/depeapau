@@ -7,6 +7,8 @@
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="https://kit.fontawesome.com/04f2f680ff.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
 
   <!-- <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
@@ -116,9 +118,39 @@
   </div>
 
   <!-- //nav movil -->
+  <div class="container mt-3">
 
+  </div>
   <div class="contenido">
+    <h2 class="presenta">hola soy paula lópez, una <br>
+      diseñadora gráfica que se toma <br> muuuuy enserio sus trabajos de</h2>
 
+    <div class="list-group">
+      <ul class=" col-12 presentacion row">
+
+
+       
+        <li>
+          <a href="#" class="lista-objeto lista-objeto-accion " style="  border: solid 0.15rem;background: none; border-color: var(--negro-color);
+         " onclick="mostrarOcultarOpciones()">selecciona</a>
+        </li>
+
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion escondido" style="background-color:#00D14F;">editorial</a>
+        </li>
+
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion escondido"style="background-color:#4F90FD;">packaging</a>
+        </li>
+
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion escondido"style="background-color:#4F90FD;">fotografía</a>
+        </li>
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion escondido"style="background-color:#FD990F;">web</a>
+        </li>
+      </ul>
+    </div>
 
     <div id="w-node-a2517314-1bdb-1cb4-6d81-d9568cc726a8-6c2e93cc" class="w-layout-layout quick-stack wf-layout-layout">
 
@@ -552,6 +584,32 @@
 
   <script src="mainone.js" type="text/javascript"></script>
   <script src="maintwo.js" type="text/javascript"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      $(".hidden-option").hide();
+    });
+
+    function mostrarOcultarOpciones() {
+      var opciones = $(".hidden-option");
+      if (opciones.is(":visible")) {
+        opciones.each(function (index) {
+          $(this).delay(300 * index).fadeOut(500);
+        });
+      } else {
+        opciones.each(function (index) {
+          $(this).delay(300 * (opciones.length - index - 1)).fadeIn(500);
+        });
+      }
+    }
+  </script>
+
+
+
+
 </body>
 
 </html>

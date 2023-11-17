@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <title>Lista Interactiva</title>
-    <style>
-      .hidden {
-        display: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container mt-3">
-      <h2>Selecciona una opción:</h2>
 
-      <div class="list-group col-12">
-        <ul class="row">
-          <li>
-            <a
-              href="#"
-              class="list-group-item list-group-item-action col-3 "
-              onclick="mostrarOpciones()"
-              >Selecciona</a
-            >
-          </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <title>Lista Interactiva</title>
+  <style>
+    ul {
+      list-style: none;
+    }
 
-<li>
-    <a href="#" class="list-group-item list-group-item-action hidden col-3"
-    >Editorial</a
-  >
+    li {
+      padding-right: 1rem;
+    }
+  </style>
+</head>
 
-  <li>
-    <a href="#" class="list-group-item list-group-item-action hidden col-3"
-    >Web</a
-  >
+<body>
+  <div class="container mt-3">
+    <h2>Selecciona una opción:</h2>
 
-  </li>
+    <div class="list-group">
+      <ul class="row col-12">
+        <li>
+          <a href="#" class="lista-objeto lista-objeto-accion" onclick="mostrarOcultarOpciones()">selecciona</a>
+        </li>
 
-</li>
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion hidden">editorial</a>
+        </li>
 
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion hidden">packaging</a>
+        </li>
 
-
-
-        </ul>
-
-      
-      
-      </div>
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion hidden">fotografía</a>
+        </li>
+        <li class="hidden-option">
+          <a href="#" class="lista-objeto lista-objeto-accion hidden">web design</a>
+        </li>
+      </ul>
     </div>
+  </div>
 
-    <script>
-      function mostrarOpciones() {
-        var opciones = document.querySelectorAll(".hidden");
-        opciones.forEach(function (opcion) {
-          opcion.classList.remove("hidden");
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      $(".hidden-option").hide();
+    });
+
+    function mostrarOcultarOpciones() {
+      var opciones = $(".hidden-option");
+      if (opciones.is(":visible")) {
+        opciones.each(function (index) {
+          $(this).delay(300 * index).fadeOut(500);
+        });
+      } else {
+        opciones.each(function (index) {
+          $(this).delay(300 * (opciones.length - index - 1)).fadeIn(500);
         });
       }
-    </script>
+    }
+  </script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
