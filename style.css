@@ -5257,7 +5257,7 @@ li {
   height: auto;
   align-items: flex-start;
   padding-top: 0;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
   display: flex;
 }
 
@@ -5268,7 +5268,8 @@ li {
   flex: 0 auto;
   align-items: flex-start;
   font-family: "HKGrotesk", sans-serif;
-  font-size: 20px;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
   font-weight: 400;
   display: flex;
 }
@@ -9177,10 +9178,10 @@ padding-bottom: 1rem;
 }
 
 .contendtrab img {
-  width: 100%;
+  width: 120rem; 
   object-fit: cover;
   border-radius: 2.8rem;
-  height: 30rem;
+  height: 60rem;
 
 }
 
@@ -9301,7 +9302,7 @@ padding-bottom: 1rem;
 
 .contendtrab {
   margin-bottom: 1rem;
-  min-height: 22 rem;
+  max-height: 22 rem;
   border-style: solid;
   border-radius: 3rem;
   border-color: var(--negro-color);
