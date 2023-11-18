@@ -597,11 +597,11 @@
       var opciones = $(".hidden-option");
       if (opciones.is(":visible")) {
         opciones.each(function (index) {
-          $(this).delay(300 * index).fadeOut(00);
+          $(this).delay(300 * index).fadeOut(0);
         });
       } else {
         opciones.each(function (index) {
-          $(this).delay(300 * (opciones.length - index - 1)).fadeIn(00);
+          $(this).delay(300 * (opciones.length - index - 1)).fadeIn(0);
         });
       }
     }
