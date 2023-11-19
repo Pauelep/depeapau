@@ -1831,6 +1831,12 @@ fieldset[disabled]:not(.w-input-disabled) .w-select {
     line-height: 7rem;
   }
 
+  h1.heading{
+    margin-bottom: 1.5rem!important;
+  
+  }
+  
+
 
 }
 
@@ -5809,9 +5815,9 @@ ul.educa {
 
 .waves---main-container {
   max-width: 100%;
-  background-color: #272727;
+
   border-radius: 35px;
-  padding: 24px;
+  padding-bottom: 15px;
 }
 
 .waves---section-medium {
@@ -5832,45 +5838,7 @@ ul.educa {
   margin-right: auto;
 }
 
-.footer-form-two {
-  background-color: #f5f7fa;
-  margin-bottom: 40px;
-  padding: 64px;
-}
 
-.footer-form-container-two {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-}
-
-.footer-form-title {
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.footer-form-block-two {
-  justify-content: flex-end;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
-.footer-form-input {
-  width: 460px;
-  height: 48px;
-  border: 1px #000;
-  margin-bottom: 0;
-  padding: 12px 180px 12px 20px;
-}
-
-.footer-form-input::-ms-input-placeholder {
-  color: rgba(26, 27, 31, .8);
-}
-
-.footer-form-input::placeholder {
-  color: rgba(26, 27, 31, .8);
-}
 
 .button-primary-6 {
   color: #fff;
@@ -5946,10 +5914,12 @@ ul.educa {
   justify-content: space-between;
   align-items: center;
   display: flex;
+
+
 }
 
 .footer-copyright {
-  color: #fff;
+  color: var(--negro-color);
 }
 
 .footer-legal-block {
@@ -5959,7 +5929,7 @@ ul.educa {
 }
 
 .footer-legal-link {
-  color: #fff;
+  color: var(--negro-color);
   margin-left: 24px;
 }
 
@@ -6070,7 +6040,7 @@ ul.educa {
 }
 
 .heading {
-  color: #fff;
+
   align-items: flex-start;
   margin-top: 0;
   display: block;
@@ -7460,7 +7430,7 @@ ul.educa {
     margin-top: 0;
     padding: 20px 0;
     display: flex;
-    box-shadow: 0 8px 50px rgba(0, 0, 0, .05);
+
   }
 
   .heading {
@@ -9129,17 +9099,15 @@ ul.educa {
   }
 
   .presenta {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .list-group li {
     padding-left: 0;
-    font-size: 1.5rem;
-    line-height: 1rem;
-
+    font-size: 2rem;
+    line-height: 2rem;
   }
-
 
   .lista-objeto {
 
@@ -9147,6 +9115,14 @@ ul.educa {
     padding: 0.5rem 1rem;
 
   }
+
+
+
+h1.heading{
+  margin-bottom: 1rem!important;
+
+}
+
 }
 
 
