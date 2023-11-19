@@ -310,7 +310,7 @@ th {
   content: "î˜";
 }
 
-.w-icon-nav-menu:before {}
+
 
 .w-icon-arrow-down:before,
 .w-icon-dropdown-toggle:before {
@@ -1862,7 +1862,7 @@ fieldset[disabled]:not(.w-input-disabled) .w-select {
   }
 
   .contendtrabif {
-    height: 100rem;
+    height: 60rem;
 
   }
 
