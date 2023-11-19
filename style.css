@@ -5451,7 +5451,6 @@ ul.educa {
   font-weight: 800;
   line-height: 1.5rem;
   text-decoration: none;
-
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -9196,8 +9195,55 @@ ul.educa {
 
     padding: 0;
   }
+  .textodescri {
+   
+    font-size: 1rem;
+    line-height: 1rem;
+
+  
+  }
+
+  .textodescri p {
+    padding-bottom: 0;
+    font-size: 1rem;
+    line-height: 1rem;
+
+  
+  }
+  .edtitle {
+   
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 0.5rem;
+  
+  
+  }
+
+  .educa li {
+    line-height: 1rem;
+    font-size: 1rem;
+    list-style: none;
+
+    padding-bottom: 1rem;
+  
+  }
+  .datos {
+
+    padding-top: 1rem !important;
+  }
+  .alia-link-2 {
+    font-size: 1rem;
+  
+  }
+.link-block2{
+padding: 0.3rem 1rem;
+
+}
+.habilidades li {
+  padding-bottom: 0.5rem;
 
 
+}
 
 }
 
