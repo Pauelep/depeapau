@@ -1851,6 +1851,20 @@ fieldset[disabled]:not(.w-input-disabled) .w-select {
 
   }
 
+  .contendtrabde {
+
+    margin-right: 10px;
+  }
+
+  .contendtrabiz {
+
+    margin-left: 10px;
+  }
+  .contendtrabif{
+    height:1000rem;
+
+  }
+
   .habilidades {
     padding: 0;
   }
@@ -5389,6 +5403,7 @@ li {
   line-height: 2.5rem;
   font-weight: 400;
   display: flex;
+  padding-bottom: 2rem;
 }
 
 .datos {
@@ -5693,6 +5708,10 @@ ul.educa {
   font-weight: 700;
 }
 
+.fechas {
+  padding-bottom: 0;
+}
+
 .cosotit {
   font-size: 1.3rem;
   font-family: "HKGrotesk";
@@ -5866,7 +5885,7 @@ ul.educa {
   max-width: 100%;
 
   border-radius: 35px;
- 
+
 }
 
 .waves---section-medium {
@@ -7562,7 +7581,7 @@ ul.educa {
 
   .nav_overlay {
     z-index: 98;
-    background-color:var(--blanco-color);
+    background-color: var(--blanco-color);
     flex-direction: row;
     align-items: center;
     display: none;
@@ -8748,10 +8767,7 @@ ul.educa {
     display: flex;
   }
 
-  .property-details-4.vinoinicio {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+
 
   .property-meta-datat-3 {
     flex: 0 auto;
@@ -9190,17 +9206,30 @@ ul.educa {
 
   }
 
+  .contendtrabde {
+
+    margin-right: 0px;
+  }
+
+  .contendtrabiz {
+
+    margin-left: 0px;
+  }
+  .contendtrabif{
+    height:10rem;
+
+  }
+
   .habilidades {
-
-
     padding: 0;
   }
+
   .textodescri {
-   
+
     font-size: 1rem;
     line-height: 1rem;
 
-  
+
   }
 
   .textodescri p {
@@ -9208,15 +9237,16 @@ ul.educa {
     font-size: 1rem;
     line-height: 1rem;
 
-  
+
   }
+
   .edtitle {
-   
+
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding-bottom: 0.5rem;
-  
-  
+
+
   }
 
   .educa li {
@@ -9225,25 +9255,49 @@ ul.educa {
     list-style: none;
 
     padding-bottom: 1rem;
-  
+
   }
+
   .datos {
 
     padding-top: 1rem !important;
   }
+
   .alia-link-2 {
     font-size: 1rem;
-  
+
   }
-.link-block2{
-padding: 0.3rem 1rem;
 
-}
-.habilidades li {
-  padding-bottom: 0.5rem;
+  .link-block2 {
+    padding: 0.3rem 1rem;
+
+  }
+
+  .habilidades li {
+    padding-bottom: 0.5rem;
+
+  }
+
+  .textofichas {
+    padding-bottom: 2rem;
+    line-height: 1rem;
+    font-size: 1rem;
+  }
 
 
-}
+  .datit {
+    font-size: 1.3rem;
+  }
+
+  .cosotit {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .fechas {
+    padding-top: 0rem;
+  }
+
 
 }
 
