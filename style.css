@@ -12,7 +12,18 @@ p:hover {
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
 }
+.property-title-5:hover{
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
+}
+.datit:hover{
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+
+}
+.cosotit:hover{
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+
+}
 @font-face {
   font-family: 'HKGrotesk';
   src: url('/fonts/HKGrotesk-Black.woff2') format('woff2');
