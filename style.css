@@ -16,11 +16,15 @@ p:hover {
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
 }
-.datit:hover{
-  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+.datit:before{
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important; pointer-events: none; /* Permite que el mouse pase a través del texto oculto */
 
 }
 .cosotit:hover{
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+
+}
+h2:hover{
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
 }
