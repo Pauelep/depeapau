@@ -18,8 +18,8 @@ function cambiarColorDeFondo() {
   setTimeout(() => {
     document.body.style.background = "";
     document.querySelector('.barra').style.background = "#ffffff"; // Restaurar el color original de .barra
-  }, 1000);
+  }, 3000);
 }
 
 // Cambiar el color de fondo cada 5 segundos
-setInterval(cambiarColorDeFondo, 10000);
+setInterval(cambiarColorDeFondo, 60000);
