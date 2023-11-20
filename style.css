@@ -4,6 +4,14 @@
   --blanco-color: #ffffff;
   /* Color para el título */
 }
+p:hover {
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+
+}
+.textofichas:hover {
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+
+}
 
 @font-face {
   font-family: 'HKGrotesk';
