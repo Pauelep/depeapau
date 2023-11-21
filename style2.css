@@ -1,18 +1,14 @@
 
-html{
 
-    cursor: url("img/ratona.ico"), auto!important;   /* Con posición */
-
-}
 
 body {
 
     margin: 0%;
     background: linear-gradient(0deg, rgba(79, 144, 253, 1) 0%, rgba(0, 209, 79, 1) 53%, rgba(253, 153, 15, 1) 100%);
     background-attachment: fixed;
-    /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🐀</text></svg>"), auto !important;
+     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🐀</text></svg>"), auto !important;
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🐀</text></svg>"), text !important;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🐀</text></svg>"), hand !important; */
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><text y='50%' font-size='25px'>🐀</text></svg>"), hand !important; 
  
 }
 
