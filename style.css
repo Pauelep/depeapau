@@ -4,6 +4,11 @@
   --blanco-color: #ffffff;
   /* Color para el título */
 }
+.sobremi{
+
+  cursor: url("img/ratonados.png"), auto!important;   /* Con posición */
+
+}
 p:hover {
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
