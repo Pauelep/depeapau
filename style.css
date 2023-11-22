@@ -4,9 +4,17 @@
   --blanco-color: #ffffff;
   /* Color para el título */
 }
+
+
 .sobremi{
 
   cursor: url("img/ratonados.png"), auto!important;   /* Con posición */
+ 
+
+}
+
+.sobremi:hover{
+  cursor: url("img/ratonados.png"), pointer!important;   /* Con posición */
 
 }
 p:hover {
@@ -3194,7 +3202,7 @@ a {
 }
 
 li {
-  background-color: #fff;
+  background-color: none;
   border-radius: 20px;
   flex: 0 auto;
   order: 1;
@@ -7610,7 +7618,7 @@ ul.educa {
 
   .nav_overlay {
     z-index: 98;
-    background-color: var(--blanco-color);
+    background-color:#fff;
     flex-direction: row;
     align-items: center;
     display: none;
