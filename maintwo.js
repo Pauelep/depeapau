@@ -26,4 +26,4 @@ function cambiarColorDeFondo() {
 }
 
 // Cambiar el color de fondo cada 5 segundos
-setInterval(cambiarColorDeFondo, 100000);
+setInterval(cambiarColorDeFondo, 10000);
