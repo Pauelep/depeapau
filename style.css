@@ -16,7 +16,7 @@
 .sobremi:hover{
   cursor: url("img/ratonados.png"), pointer!important;   /* Con posición */
 
-}
+}/*
 p:hover {
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
@@ -30,7 +30,7 @@ p:hover {
 
 }
 .datit:before{
-  font-family: "Comic Sans MS", "Comic Sans", cursive !important; pointer-events: none; /* Permite que el mouse pase a través del texto oculto */
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important; pointer-events: none; *//* Permite que el mouse pase a través del texto oculto *//*
 
 }
 .cosotit:hover{
@@ -40,7 +40,7 @@ p:hover {
 h2:hover{
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 
-}
+}*/
 @font-face {
   font-family: 'HKGrotesk';
   src: url('/fonts/HKGrotesk-Black.woff2') format('woff2');

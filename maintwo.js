@@ -4,11 +4,14 @@ $(document).ready(function () {
 
 const elementos = ["body", ".nav_overlay", ".barra"];
 
-function cambiarColorDeFondo() {
+
+
+ // Abre cambiar el color dde fondo cada  x segundos
+/* function cambiarColorDeFondo() {
   // Colores específicos para el degradado
   const color1 = "#4F90FD";  // Azul
   const color2 = "#00D14F";  // Rojo
-  const color3 = "#FD990F";  // Rojo
+  const color3 = "#FD990F";  // Verde
 
   // Aplicar el degradado al fondo de cada elemento
   for (let i = 0; i < elementos.length; i++) {
@@ -26,4 +29,6 @@ function cambiarColorDeFondo() {
 }
 
 // Cambiar el color de fondo cada 5 segundos
-setInterval(cambiarColorDeFondo, 10000);
+setInterval(cambiarColorDeFondo, 10000);*/
+
+ // Cierra cambiar el color dde fondo cada  x segundos
