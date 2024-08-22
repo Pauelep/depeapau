@@ -179,20 +179,19 @@
 
 
 
-    
-  <!-- Contenedor para el footer -->
-  <div id="footer"></div>
+   <!-- Contenedor para el footer -->
+   <div id="footer"></div>
 
-  <!-- Script para cargar el footer -->
-  <script>
-    // Fetch para cargar el contenido de footer.html
-    fetch('../footer.html')
-      .then(response => response.text()) // Convertir la respuesta a texto
-      .then(data => {
-        document.getElementById('footer').innerHTML = data; // Insertar el contenido en el div
-      })
-      .catch(error => console.error('Error al cargar el footer:', error)); // Manejo de errores
-  </script>
+   <!-- Script para cargar el footer -->
+   <script>
+       // Fetch para cargar el contenido de footer.html
+       fetch('../footer.html')
+           .then(response => response.text()) // Convertir la respuesta a texto
+           .then(data => {
+               document.getElementById('footer').innerHTML = data; // Insertar el contenido en el div
+           })
+           .catch(error => console.error('Error al cargar el footer:', error)); // Manejo de errores
+   </script>
 
 
 
