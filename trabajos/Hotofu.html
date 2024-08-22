@@ -194,51 +194,28 @@
 
 
     </div>
-    <div class="footer">
-      <div class="waves---main-container w-container">
-        <div class="waves-top-footer-1">
   
-          <div class="waves-top-right-footer-1">
-            <h1 class="heading">Ficha mis otros lugares</h1>
-            <ul role="list" class="redesfood w-list-unstyled">
-              <li class="list-item-foot" style="background-color: #ff5b5b;">
-                <a href="mailto:infodepeapau@gmail.com" class="link-red-foot w-inline-block"
-                  style="color: var(--blanco-color);">
-                  <div class="nav-link-2" style="color: var(--blanco-color);">Email</div>
-                </a>
-              </li>
-              <li class="list-item-foot"
-                style="background: linear-gradient(258deg, #7000FF 8.2%, #C0F 38.15%, #FFC700 74.47%, #FFE500 95.28%);animation: AnimationName 30s ease infinite; ">
-                <a href="https://www.instagram.com/depeapau" class="link-red-foot w-inline-block"
-                  style="color: var(--blanco-color);">
-                  <div class="nav-link-2" style="color: var(--blanco-color);">Instagram</div>
-                </a>
-              </li>
-              <li class="list-item-foot" style="background-color: #2797ff;">
-                <a href="https://www.linkedin.com/in/paula-lopez-perant-59984126a/" class="link-red-foot w-inline-block" style="color: var(--blanco-color); ">
-                  <div class="nav-link-2" style="color: var(--blanco-color); ">LikedIn</div>
-                </a>
-              </li>
-              <!-- <li class="list-item-foot" style="background-color: var(--negro-color);">
-                <a href="#" class="link-red-foot w-inline-block" style="color: var(--blanco-color);
-                      ">
-                  <div class="nav-link-2" style="color: var(--blanco-color);">Resumen</div>
-                </a>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom justify-content-center">
-          <div class="footer-copyright ">
-            ©2024 Paula López. Todos los derechos reservados.
-          </div>
-          <div class="footer-legal-block d-none">
-            <a href="#" class="footer-legal-link">Términos de uso</a><a href="#" class="footer-legal-link">Política de
-              privacidad</a>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
+
+    
+  <!-- Contenedor para el footer -->
+  <div id="footer"></div>
+
+  <!-- Script para cargar el footer -->
+  <script>
+    // Fetch para cargar el contenido de footer.html
+    fetch('footer.html')
+      .then(response => response.text()) // Convertir la respuesta a texto
+      .then(data => {
+        document.getElementById('footer').innerHTML = data; // Insertar el contenido en el div
+      })
+      .catch(error => console.error('Error al cargar el footer:', error)); // Manejo de errores
+  </script>
+
+
+
+
   </div>
   <div data-w-id="a414070e-b140-4f19-2e35-8b4ae9b1250d" class="botonup">
     <a href="#arriba" class="button-3 w-button">↑</a>
