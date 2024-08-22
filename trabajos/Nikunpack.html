@@ -56,7 +56,7 @@
         <nav role="navigation" class="navbar-menu-2 w-nav-menu m-0">
           <ul role="list" class="nav-menu-two-2 w-list-unstyled col-12 position-static">
             <li class="list-item">
-              <a href="/inicio.html" aria-current="page" class="link-block w-inline-block w--current"
+              <a href="/index.html" aria-current="page" class="link-block w-inline-block w--current"
                 style="text-decoration: var(--negro-color);   ">
                 <div class="nav-link-2">INICIO</div>
               </a>
@@ -174,23 +174,22 @@
 
 
 
-    
-  <!-- Contenedor para el footer -->
-  <div id="footer"></div>
 
-  <!-- Script para cargar el footer -->
-  <script>
-    // Fetch para cargar el contenido de footer.html
-    fetch('footer.html')
-      .then(response => response.text()) // Convertir la respuesta a texto
-      .then(data => {
-        document.getElementById('footer').innerHTML = data; // Insertar el contenido en el div
-      })
-      .catch(error => console.error('Error al cargar el footer:', error)); // Manejo de errores
-  </script>
+     <!-- Contenedor para el footer -->
+     <div id="footer"></div>
 
-
-
+     <!-- Script para cargar el footer -->
+     <script>
+         // Fetch para cargar el contenido de footer.html
+         fetch('/footer.html')
+             .then(response => response.text()) // Convertir la respuesta a texto
+             .then(data => {
+                 document.getElementById('footer').innerHTML = data; // Insertar el contenido en el div
+             })
+             .catch(error => console.error('Error al cargar el footer:', error)); // Manejo de errores
+     </script>
+  
+  
 
   </div>
   <div data-w-id="a414070e-b140-4f19-2e35-8b4ae9b1250d" class="botonup">
